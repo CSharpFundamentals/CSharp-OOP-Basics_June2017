@@ -1,0 +1,6 @@
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ClassBox\bin\Debug\ClassBox.exe.config
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ClassBox\bin\Debug\ClassBox.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ClassBox\bin\Debug\ClassBox.pdb
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ClassBox\obj\Debug\ClassBox.csprojResolveAssemblyReference.cache
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ClassBox\obj\Debug\ClassBox.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ClassBox\obj\Debug\ClassBox.pdb

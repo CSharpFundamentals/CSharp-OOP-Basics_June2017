@@ -1,0 +1,5 @@
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\AnimalFarm\bin\Debug\AnimalFarm.exe.config
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\AnimalFarm\bin\Debug\AnimalFarm.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\AnimalFarm\bin\Debug\AnimalFarm.pdb
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\AnimalFarm\obj\Debug\AnimalFarm.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\AnimalFarm\obj\Debug\AnimalFarm.pdb

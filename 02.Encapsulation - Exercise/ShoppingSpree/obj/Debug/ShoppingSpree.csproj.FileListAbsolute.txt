@@ -1,0 +1,6 @@
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ShoppingSpree\bin\Debug\ShoppingSpree.exe.config
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ShoppingSpree\bin\Debug\ShoppingSpree.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ShoppingSpree\bin\Debug\ShoppingSpree.pdb
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ShoppingSpree\obj\Debug\ShoppingSpree.csprojResolveAssemblyReference.cache
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ShoppingSpree\obj\Debug\ShoppingSpree.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\ShoppingSpree\obj\Debug\ShoppingSpree.pdb

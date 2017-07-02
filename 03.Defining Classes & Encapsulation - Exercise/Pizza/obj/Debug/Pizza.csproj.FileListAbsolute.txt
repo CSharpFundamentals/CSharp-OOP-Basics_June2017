@@ -1,0 +1,6 @@
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\Pizza\bin\Debug\Pizza.exe.config
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\Pizza\bin\Debug\Pizza.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\Pizza\bin\Debug\Pizza.pdb
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\Pizza\obj\Debug\Pizza.csprojResolveAssemblyReference.cache
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\Pizza\obj\Debug\Pizza.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\Pizza\obj\Debug\Pizza.pdb

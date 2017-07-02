@@ -1,0 +1,6 @@
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\FamilyTree\bin\Debug\FamilyTree.exe.config
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\FamilyTree\bin\Debug\FamilyTree.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\FamilyTree\bin\Debug\FamilyTree.pdb
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\FamilyTree\obj\Debug\FamilyTree.csprojResolveAssemblyReference.cache
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\FamilyTree\obj\Debug\FamilyTree.exe
+C:\Local Disc D\Repos\SoftUni\04 - C# OOP Basics\02.Encapsulation\FamilyTree\obj\Debug\FamilyTree.pdb

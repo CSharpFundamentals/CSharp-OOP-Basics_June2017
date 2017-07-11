@@ -1,0 +1,37 @@
+﻿register 1 Performance BMV M92 2013 300 4 150 75
+register 2 Show Maserati Levante 2015 400 6 250 100
+register 3 Performance Nissan GT-R 2017 550 4 300 100
+register 4 Performance McLaren P1 2016 650 2 400 200
+register 5 Performance Trabant 601 1988 50000 1 10000 1000
+open 1 Drag 5 SofiaAirport 100000
+open 2 Drift 3 SofiaStreets 50000
+open 3 Casual 20 Malibu 75000
+park 1
+park 2
+park 3
+participate 4 1
+participate 5 1
+participate 1 1
+participate 2 1
+participate 3 1
+start 1
+tune 100 Turbo
+check 3
+unpark 1
+unpark 2
+unpark 3
+park 5
+check 5
+tune 5000 Nitrous
+check 5
+unpark 5
+participate 5 2
+start 3
+start 2
+participate 1 3
+participate 2 3
+participate 3 3
+participate 4 3
+participate 5 3
+start 3
+Cops Are Here

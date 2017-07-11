@@ -1,0 +1,21 @@
+﻿using NUnit.Framework;
+using System;
+[TestFixture]
+public class T02TestAbstractClasses
+{
+    // Class names
+    private Type[] classes = 
+    {
+        typeof(Car),
+        typeof(Race),
+    };
+
+    [Test]
+    public void TestMethod()
+    {
+        foreach (var className in classes)
+        {
+            Assert.IsTrue(className.IsAbstract, $"{className.Name} is NOT abstarct");
+        }
+    }
+}

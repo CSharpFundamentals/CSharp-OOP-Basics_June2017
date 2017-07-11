@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections;
+using System.Linq;
+using System.Reflection;
+using NUnit.Framework;
+
+[TestFixture]
+class T05TestReadOnlyCollection
+{
+    // Class names
+    private Type[] classes =
+    {
+        typeof(PerformanceCar),
+        typeof(ShowCar),
+        typeof(Garage),
+        typeof(CasualRace),
+        typeof(DragRace),
+        typeof(DriftRace)
+    };
+
+    [Test]
+    public void AssertExistingClasses()
+    {
+        foreach (var className in classes)
+        {
+            AssertReadOnlyCollections(className.GetProperties());
+        }
+    }
+
+    private void AssertReadOnlyCollections(PropertyInfo[] getProperties)
+    {
+        foreach (var propertyInfo in getProperties)
+        {
+            var typeOf = propertyInfo.GetMethod.ReturnType;
+            var interfaces = typeOf.GetInterfaces();
+            if (interfaces.Contains(typeof(IEnumerable)) && typeOf != typeof(string))
+            {
+                Assert.IsTrue(propertyInfo.SetMethod == null || propertyInfo.CanWrite || propertyInfo.SetMethod.IsPublic);
+            }
+        }
+    }
+}

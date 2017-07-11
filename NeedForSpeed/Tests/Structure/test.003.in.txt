@@ -1,0 +1,38 @@
+﻿using NUnit.Framework;
+using System;
+
+[TestFixture]
+public class T03TestCarHierarchy
+{
+    // Class names
+    private Type[] classes = 
+    {
+        typeof(ShowCar),
+        typeof(PerformanceCar)
+    };
+
+    private Type parentClass = typeof(Car);
+
+    [Test]
+    public void TestMethod()
+    {
+        foreach (var className in classes)
+        {
+            Assert.IsTrue(CheckHierarchy(className));
+        }
+    }
+
+    private bool CheckHierarchy(Type className)
+    {
+        var baseClass = className.BaseType;
+        while (baseClass != typeof(object))
+        {
+            if (baseClass == parentClass)
+            {
+                return true;
+            }
+            baseClass = baseClass.BaseType;
+        }
+        return false;
+    }
+}

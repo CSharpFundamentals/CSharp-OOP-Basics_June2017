@@ -1,0 +1,23 @@
+﻿register 1 Performance Mitsubishi Lancer-Evo 2010 400 5 200 100
+register 2 Performance Nissan Z370 2012 500 4 300 200
+register 3 Show BMW i8-Spyder 2016 600 3 400 300
+register 4 Performance Lamborghini Aventador 2017 1000 2 500 300
+register 5 Show Ford Mustang-Shelby 1970 400 5 700 200
+open 1 Circuit 10 SofiaStreets 100000 5
+participate 1 1
+participate 2 1
+participate 3 1
+participate 4 1
+participate 5 1
+start 1
+open 2 TimeLimit 5 Airport 100000 200
+park 4
+check 4
+tune 1000 ReactiveOwl
+participate 4 2
+check 4
+start 2
+unpark 4
+participate 4 2
+start 2
+Cops Are Here

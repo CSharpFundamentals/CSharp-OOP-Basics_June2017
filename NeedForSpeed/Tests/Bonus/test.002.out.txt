@@ -1,0 +1,17 @@
+﻿SofiaStreets - 50
+1. Lamborghini Aventador 925PP - $40000
+2. Ford Mustang-Shelby 480PP - $30000
+3. BMW i8-Spyder 400PP - $20000
+4. Nissan Z370 112PP - $10000
+Lamborghini Aventador 2017
+1500 HP, 100 m/h in 2 s
+375 Suspension force, -200 Durability
+Add-ons: None
+Lamborghini Aventador 2017
+2500 HP, 100 m/h in 2 s
+875 Suspension force, -200 Durability
+Add-ons: ReactiveOwl
+Cannot start the race with zero participants.
+Airport - 5
+Lamborghini Aventador - 250 s.
+Bronze Time, $30000.

@@ -1,0 +1,12 @@
+﻿register 1 Performance Mitsubishi Lancer-Evo 2010 400 5 200 100
+register 4 Performance Lamborghini Aventador 2017 1000 2 500 300
+park 4
+tune 1000 Turbo
+unpark 4
+open 1 TimeLimit 5 SofiaAirport 100000 260
+open 2 TimeLimit 5 Malibu 10000 240
+start 1
+participate 4 1
+participate 1 1
+start 1
+Cops Are Here

@@ -1,0 +1,40 @@
+﻿using NUnit.Framework;
+using System;
+using System.ComponentModel.Design;
+
+[TestFixture]
+public class T04TestRaceHierarchy
+{
+    // Class names
+    private Type[] classes =
+    {
+        typeof(CasualRace),
+        typeof(DriftRace),
+        typeof(DragRace)
+    };
+
+    private Type parentClass = typeof(Race);
+
+    [Test]
+    public void TestMethod()
+    {
+        foreach (var className in classes)
+        {
+            Assert.IsTrue(CheckHierarchy(className));
+        }
+    }
+
+    private bool CheckHierarchy(Type className)
+    {
+        var baseClass = className.BaseType;
+        while (baseClass != typeof(object))
+        {
+            if (baseClass == parentClass)
+            {
+                return true;
+            }
+            baseClass = baseClass.BaseType;
+        }
+        return false;
+    }
+}

@@ -1,0 +1,22 @@
+﻿using NUnit.Framework;
+using System;
+
+[TestFixture]
+public class T00TestToStringOverride
+{
+    private Type[] classes =
+    {
+        typeof(Car),
+        typeof(ShowCar),
+        typeof(PerformanceCar)
+    };
+
+    [Test]
+    public void TestMethod()
+    {
+        foreach (var className in classes)
+        {
+            Assert.IsTrue(className.GetMethod("ToString").DeclaringType == className, $"{className}");
+        }
+    }
+}

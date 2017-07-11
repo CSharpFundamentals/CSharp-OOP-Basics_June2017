@@ -1,0 +1,35 @@
+﻿using System;
+using NUnit.Framework;
+
+[TestFixture]
+public class T04TestParkAndRaceMethods
+{
+    private Type sut = typeof(CarManager);
+    private object[] perfCarDetails = new object[] { 1, "Performance", "BMW", "M3", 1992, 200, 5, 100, 100 };
+    private object[] showCarDetails = new object[] { 2, "Show", "Merc", "C", 1995, 180, 6, 100, 100 };
+    private object[] raceDetails = new object[] { 1, "Casual", 1000, "Dragon", 100 };
+    private string expectedStartOutput = "Dragon - 1000\r\n" +
+                                         "1. Merc C 230PP - $50";
+
+    [Test]
+    public void TestMethod()
+    {
+        var register = sut.GetMethod("Register");
+        var park = sut.GetMethod("Park");
+        var participate = sut.GetMethod("Participate");
+        var start = sut.GetMethod("Start");
+        var open = sut.GetMethod("Open", new Type[] { typeof(int), typeof(string), typeof(int), typeof(string), typeof(int) });
+        var manager = new CarManager();
+
+        register.Invoke(manager, perfCarDetails);
+        register.Invoke(manager, showCarDetails);
+        open.Invoke(manager, raceDetails);
+        park.Invoke(manager, new object[] { 1 });
+        participate.Invoke(manager, new object[] { 1, 1 });
+        participate.Invoke(manager, new object[] { 2, 1 });
+        
+        String startActualOutput = (String)start.Invoke(manager, new object[] { 1 });
+        Assert.AreEqual(startActualOutput, expectedStartOutput, $"{startActualOutput}");
+
+    }
+}

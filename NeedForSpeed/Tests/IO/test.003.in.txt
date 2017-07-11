@@ -1,0 +1,28 @@
+﻿register 1 Show Moskvich 412 1980 1000 1000 1000 1000
+register 2 Show Jigula 2101 1970 1000 1000 1000 1000
+register 3 Show Pirin-Fiat Punto 1990 1000 1000 1000 1000
+open 1 Casual 20 Sofia 20000
+park 1
+park 2
+participate 1 1
+start 1
+tune 1000 Tires
+check 1
+check 2
+unpark 1
+unpark 2
+park 3
+tune 2000 Bumpers
+participate 3 1
+start 1
+unpark 3
+check 3
+participate 1 1
+participate 2 1
+open 2 Drift 5 SofiaStreets 50000
+participate 1 2
+participate 2 2
+participate 3 2
+start 2
+start 1
+Cops Are Here

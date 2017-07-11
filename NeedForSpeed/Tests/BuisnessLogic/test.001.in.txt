@@ -1,0 +1,26 @@
+﻿using System;
+using NUnit.Framework;
+
+[TestFixture]
+public class T01TestRegisterAndCheckMethods
+{
+    private Type sut = typeof(CarManager);
+    private object[] carDetails = new object[] {1, "Performance", "BMW", "M3", 1992, 200, 5, 100, 100};
+    private string expectedOutput =
+        "BMW M3 1992\r\n" +
+        "300 HP, 100 m/h in 5 s\r\n" +
+        "75 Suspension force, 100 Durability\r\n" +
+        "Add-ons: None";
+
+    [Test]
+    public void TestMethod()
+    {
+        var register = sut.GetMethod("Register");
+        var check = sut.GetMethod("Check");
+
+        var manager = new CarManager();
+        register.Invoke(manager, carDetails);
+        var actualOutput = check.Invoke(manager, new object[] { 1 });
+        Assert.AreEqual(expectedOutput, actualOutput, $"Methods {register.Name} or {check.Name} doesn't work properly");
+    }
+}

@@ -1,0 +1,22 @@
+﻿SofiaAirport - 5
+1. Trabant 601 75000PP - $50000
+2. McLaren P1 487PP - $30000
+Nissan GT-R 2017
+925 HP, 100 m/h in 4 s
+275 Suspension force, 100 Durability
+Add-ons: Turbo
+Trabant 601 1988
+75000 HP, 100 m/h in 1 s
+7500 Suspension force, 1000 Durability
+Add-ons: None
+Trabant 601 1988
+80000 HP, 100 m/h in 1 s
+10000 Suspension force, 1000 Durability
+Add-ons: Nitrous
+Cannot start the race with zero participants.
+SofiaStreets - 3
+1. Trabant 601 11000PP - $25000
+Malibu - 20
+1. Trabant 601 91000PP - $37500
+2. McLaren P1 987PP - $22500
+3. Nissan GT-R 606PP - $15000

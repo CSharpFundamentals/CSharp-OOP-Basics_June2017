@@ -1,0 +1,29 @@
+﻿using NUnit.Framework;
+using System;
+
+[TestFixture]
+public class T03TestTuneMethods
+{
+    private Type sut = typeof(CarManager);
+    private object[] carDetails = new object[] { 1, "Performance", "BMW", "M3", 1992, 200, 5, 100, 100 };
+    private string expectedOutput = "BMW M3 1992\r\n" +
+                                    "400 HP, 100 m/h in 5 s\r\n" +
+                                    "125 Suspension force, 100 Durability\r\n" +
+                                    "Add-ons: White Stripes";
+
+    [Test]
+    public void TestMethod()
+    {
+        var register = sut.GetMethod("Register");
+        var park = sut.GetMethod("Park");
+        var tune = sut.GetMethod("Tune");
+        var check = sut.GetMethod("Check");
+        var manager = new CarManager();
+
+        register.Invoke(manager, carDetails);
+        park.Invoke(manager, new object[] {1});
+        tune.Invoke(manager, new object[] { 100, "White Stripes" });
+        var actualOutput = check.Invoke(manager, new object[] { 1 });
+        Assert.AreEqual(expectedOutput, actualOutput, $"{expectedOutput}");
+    }
+}

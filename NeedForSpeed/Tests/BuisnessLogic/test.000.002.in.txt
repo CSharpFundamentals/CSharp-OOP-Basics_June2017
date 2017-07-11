@@ -1,0 +1,31 @@
+﻿using NUnit.Framework;
+using System;
+using System.Linq;
+
+[TestFixture]
+public class T00TestCarManagerMethods
+{
+    private Type manager = typeof(CarManager);
+    private string[] methodNames =
+    {
+        "Register",
+        "Check",
+        "Open",
+        "Participate",
+        "Start",
+        "Park",
+        "Unpark",
+        "Tune"
+    };
+
+
+    [Test]
+    public void TestMethod()
+    {
+        var methods = manager.GetMethods().Select(n => n.Name);
+        foreach (var methodName in methodNames)
+        {
+            Assert.IsTrue(methods.Contains(methodName), $"{manager.Name} doesn't contain method {methodName}");
+        }
+    }
+}

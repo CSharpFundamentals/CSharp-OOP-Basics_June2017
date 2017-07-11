@@ -1,0 +1,21 @@
+﻿Cannot start the race with zero participants.
+Moskvich 412 1980
+2000 HP, 100 m/h in 1000 s
+1500 Suspension force, 1000 Durability
+1000 *
+Jigula 2101 1970
+2000 HP, 100 m/h in 1000 s
+1500 Suspension force, 1000 Durability
+1000 *
+Cannot start the race with zero participants.
+Pirin-Fiat Punto 1990
+3000 HP, 100 m/h in 1000 s
+2000 Suspension force, 1000 Durability
+2000 *
+SofiaStreets - 5
+1. Pirin-Fiat Punto 3000PP - $25000
+2. Moskvich 412 2500PP - $15000
+3. Jigula 2101 2500PP - $10000
+Sofia - 20
+1. Moskvich 412 2502PP - $10000
+2. Jigula 2101 2502PP - $6000

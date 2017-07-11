@@ -1,0 +1,21 @@
+﻿register 3 Show Porsche Carrera 2017 550 4 300 100
+register 4 Performance McLaren P1 2016 650 2 400 200
+register 5 Performance Trabant 601 1988 2000 1 10000 1000
+open 1 Casual 20 Manhattan 100000
+open 2 Drag 14 Washington 100000
+participate 5 1
+participate 5 2
+park 3
+park 4
+park 5
+start 2
+tune 150 Turbo
+tune 100 Nitrous
+tune 50 Tires
+participate 3 1
+check 3
+check 4
+unpark 4
+participate 4 1
+start 1
+Cops Are Here

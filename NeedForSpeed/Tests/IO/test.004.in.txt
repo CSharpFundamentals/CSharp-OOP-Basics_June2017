@@ -1,0 +1,28 @@
+﻿register 1 Performance Trabant 601 1988 2000 1 10000 1000
+open 1 Casual 20 SofiaStreets 50000
+open 2 Casual 20 SofiaStreets 40000
+open 3 Casual 20 SofiaStreets 30000
+participate 1 1
+participate 1 2
+participate 1 3
+park 1
+tune 2000 Turbo
+check 1
+start 1
+park 1
+tune 2000 Nitrous
+check 1
+start 2
+park 1
+tune 2000 Chipset
+check 1
+start 3
+park 1
+tune 20000 Turbo
+tune 10000 Nitrous
+tune 5000 Chipset
+check 1
+open 4 Casual 200 TestRace 1000
+participate 1 4
+start 4
+Cops Are Here

@@ -1,0 +1,13 @@
+﻿register 1 Performance Trabant 601 1988 20000 1 10000 1000
+park 1
+open 1 Drift 5 East-Side 2000
+participate 1 1
+start 1
+unpark 1
+participate 1 1
+park 1
+tune 100 TurboXXX
+check 1
+start 1
+check 1
+Cops Are Here

@@ -1,0 +1,35 @@
+﻿using NUnit.Framework;
+using System;
+
+[TestFixture]
+public class T00TestClassExists
+{
+    private const string ClassNotExists = "Class '%s' not exist";
+
+    // Class names
+    private Type[] classes = 
+    {
+        typeof(Car),
+        typeof(ShowCar),
+        typeof(PerformanceCar),
+        typeof(Garage),
+        typeof(Race),
+        typeof(CasualRace),
+        typeof(DragRace),
+        typeof(DriftRace)
+    };
+
+    [Test]
+    public void AssertExistingClasses()
+    {
+        foreach (var className in classes)
+        {
+            AssertClassExists(className);
+        }
+    }
+
+    private void AssertClassExists(Type className)
+    {
+        Assert.IsNotNull(className, ClassNotExists);
+    }
+}

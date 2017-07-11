@@ -1,0 +1,38 @@
+﻿using NUnit.Framework;
+using System;
+using System.Reflection;
+
+[TestFixture]
+public class T01TestForNonPrivateFields
+{
+    // Class names
+    private Type[] classes =
+    {
+        typeof(Car),
+        typeof(ShowCar),
+        typeof(PerformanceCar),
+        typeof(Garage),
+        typeof(Race),
+        typeof(CasualRace),
+        typeof(DragRace),
+        typeof(DriftRace)
+    };
+
+    [Test]
+    public void TestMethod()
+    {
+        foreach (var className in classes)
+        {
+            AssertFields(className);
+        }
+    }
+
+    private void AssertFields(Type className)
+    {
+        var fields = className.GetFields(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+        foreach (var fieldInfo in fields)
+        {
+            Assert.IsTrue(fieldInfo.IsPrivate, $"{fieldInfo.Name} in {className.Name} is NOT Private");
+        }
+    }
+}

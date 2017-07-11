@@ -1,0 +1,11 @@
+﻿Cannot start the race with zero participants.
+Trabant 601 1988
+30000 HP, 100 m/h in 1 s
+7500 Suspension force, 1000 Durability
+Add-ons: None
+East-Side - 5
+1. Trabant 601 8500PP - $1000
+Trabant 601 1988
+30000 HP, 100 m/h in 1 s
+7500 Suspension force, 1000 Durability
+Add-ons: None

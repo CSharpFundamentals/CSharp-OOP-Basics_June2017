@@ -1,0 +1,21 @@
+﻿register 1 Performance BMV M92 2013 300 4 150 75
+register 2 Show Maserati Levante 2015 400 6 250 100
+register 3 Performance Nissan GT-R 2017 550 4 300 100
+register 4 Performance McLaren P1 2016 650 2 400 200
+register 5 Performance Trabant 601 1988 2000 1 10000 1000
+open 1 Drag 10 BeverlyHills 50000
+open 3 Casual 20 NewYork 100000
+participate 1 1
+participate 2 1
+participate 3 1
+participate 4 1
+participate 5 1
+participate 1 3
+participate 2 3
+participate 3 3
+participate 4 3
+participate 5 3
+check 5
+start 1
+start 3
+Cops Are Here

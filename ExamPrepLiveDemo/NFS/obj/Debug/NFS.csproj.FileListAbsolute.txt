@@ -1,0 +1,6 @@
+D:\Projects\ExamPrepLiveDemo\NFS\bin\Debug\NFS.exe.config
+D:\Projects\ExamPrepLiveDemo\NFS\bin\Debug\NFS.exe
+D:\Projects\ExamPrepLiveDemo\NFS\bin\Debug\NFS.pdb
+D:\Projects\ExamPrepLiveDemo\NFS\obj\Debug\NFS.csprojResolveAssemblyReference.cache
+D:\Projects\ExamPrepLiveDemo\NFS\obj\Debug\NFS.exe
+D:\Projects\ExamPrepLiveDemo\NFS\obj\Debug\NFS.pdb

@@ -1,0 +1,6 @@
+D:\Projects\ExamPrepLiveDemo\Avatar\Live\AvatarLiveDemo\bin\Debug\AvatarLiveDemo.exe.config
+D:\Projects\ExamPrepLiveDemo\Avatar\Live\AvatarLiveDemo\bin\Debug\AvatarLiveDemo.exe
+D:\Projects\ExamPrepLiveDemo\Avatar\Live\AvatarLiveDemo\bin\Debug\AvatarLiveDemo.pdb
+D:\Projects\ExamPrepLiveDemo\Avatar\Live\AvatarLiveDemo\obj\Debug\AvatarLiveDemo.csprojResolveAssemblyReference.cache
+D:\Projects\ExamPrepLiveDemo\Avatar\Live\AvatarLiveDemo\obj\Debug\AvatarLiveDemo.exe
+D:\Projects\ExamPrepLiveDemo\Avatar\Live\AvatarLiveDemo\obj\Debug\AvatarLiveDemo.pdb
